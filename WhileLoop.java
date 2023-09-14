@@ -5,36 +5,28 @@
  **/  
 public class WhileLoop
 {
-
-    int a = 5;
-    int b = 2;
-    int c = 1;
-    int d = -8;
+    
+    int i = 0;
+    int k = 8;
+    int a = 0;
+    int b = 7;
     
     public void run() {
-        if (a == 5){
-            System.out.println("SUCCESS");
+        
+        while (i < 15){
+            System.out.println("I tells: I am not 15, I am only " + i);
+            i++;
         }
-        else{
-            System.out.println("FAILURE");
+        
+        while (k > 5){
+            System.out.println("Hah, I am greater than 5, I'm " + k);
+            k--;
         }
-        if (b == 2){
-            System.out.println("SUCCESS");
-        }
-        else{
-            System.out.println("FAILURE");
-        }
-        if (c != 1){
-            System.out.println("SUCCESS");
-        }
-        else{
-            System.out.println("FAILURE");
-        }
-        if (d == -8 && d == 4){
-            System.out.println("SUCCESS");
-        }
-        else{
-            System.out.println("FAILURE");
+        
+        while (a < 10 && b <= 20){
+            System.out.println("b and a are still not big enough, they are " + a + " and " + b);
+            a++;
+            b++;
         }
     }
     
